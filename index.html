@@ -8,6 +8,101 @@
     <link rel="stylesheet" href="./public/styles.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header class="mx-10 py-10 border-b">
+      <a class="uppercase font-bold text-green-600" href=""
+        >Tailwind Practice</a
+      >
+      <nav>
+        <ul class="text-red-500 font-semibold">
+          <li>
+            <a class="inline-block py-3 px-2 hover:text-yellow-500" href="#"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a class="inline-block py-3 px-2 hover:text-yellow-500" href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="inline-block py-3 px-2 hover:text-yellow-500" href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <div class="py-4 overflow-y-auto whitespace-nowrap">
+          <a class="text-blue-400 mx-4" href="#">Home</a>
+          <span class=""> </span>
+          <a class="text-blue-400 mx-4" href="#">News</a>
+          <a class="text-blue-400 mx-4" href="#">Tech</a>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg uppercase text-gray-700 mb-2">
+            subsribe
+          </h3>
+          <p class="text-gray-600 mb-4">Subscribe to our news.</p>
+          <input
+            class="text-gray-700 bg-gray-200 p-2 w-96 border rounded-t hover:border-gray-600"
+            placeholder="your email address"
+            type="email"
+          />
+        </div>
+      </div>
+    </main>
+    <footer class="border-t mt-10 py-10 px-2">
+      <div>
+        <div class="my-5">
+          <h4 class="font-semibold text-gray-700 mx-4">Company</h4>
+          <ul>
+            <li>
+              <a
+                class="inline-block text-gray-700 hover:underline my-2"
+                href="#"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block text-gray-700 hover:underline my-2"
+                href="#"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h4 class="font-semibold text-gray-700 mx-4">Content</h4>
+          <ul>
+            <li>
+              <a
+                class="inline-block text-gray-700 hover:underline my-2"
+                href="#"
+                >Block</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block text-gray-700 hover:underline my-2"
+                href="#"
+                >Policy</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block text-gray-700 hover:underline decoration-red-700 decoration-wavy my-2"
+                href="#"
+                >Docs</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
