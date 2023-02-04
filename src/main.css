@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 .header-link{
-@apply inline-block py-3 px-2 hover:text-yellow-500 mx-2;
+@apply dark:text-slate-200 dark:hover:text-purple-500 dark:hover:border-purple-500 transition-all duration-300 inline-block py-3 px-2 hover:text-yellow-500 mx-2;
 }
 .header-btn{
-    @apply ml-4 py-1 px-3 border-2 rounded-full border-indigo-800 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring-violet-300;
+    @apply dark:border-indigo-500 dark:text-indigo-500 dark:hover:bg-indigo-500 dark:hover:text-white ml-4 py-1 px-3 border-2 rounded-full border-indigo-800 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring-violet-300;
 }
 @layer components{
     .pag-link{
-    @apply inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:selection:bg-gray-100  hover:text-gray-700;
+    @apply dark:dark:text-slate-400 inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:selection:bg-gray-100  hover:text-gray-700;
 }
 }
 @layer components{
     .footer-link{
-    @apply inline-block text-gray-700 underline my-2;
+    @apply dark:text-slate-400 inline-block text-gray-700 underline my-2;
 }
 }
